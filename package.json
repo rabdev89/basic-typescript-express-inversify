@@ -1,0 +1,24 @@
+{
+  "name": "basic-typescript-express-inversify",
+  "version": "1.0.0",
+  "description": "Build a simple backend service using NodeJS and Express with the following API endpoints",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.21.3",
+    "npm": ">=9.6.3"
+  },
+  "scripts": {
+    "start": "node out/skywind/app.js",
+    "test": "jest src/test/sum.test.js",
+    "test-mocha": "mocha --recursive --exit"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "inversify": "^6.0.1",
+    "inversify-express-utils": "^6.4.3",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5"
+  }
+}
